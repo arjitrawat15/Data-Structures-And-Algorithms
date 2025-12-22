@@ -67,9 +67,10 @@ int main()
         cin>>val;
         root=insert(root,val);
     }
-    cout<<"Postfix Traversal is: ";
+    cout<<"Postorder Traversal is: ";
     postorder(root);
     return 0;
 }
+
 
 
