@@ -51,8 +51,8 @@ void postorder(node* root)
     {
         return;
     }
-    postfix(root->left);
-    postfix(root->right);
+    postorder(root->left);
+    postorder(root->right);
     cout<<root->data<<" ";
 }
 int main()
@@ -71,4 +71,5 @@ int main()
     postorder(root);
     return 0;
 }
+
 
