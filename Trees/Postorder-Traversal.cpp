@@ -45,7 +45,7 @@ node* insert(node* root,int val)
     }
     return root;
 }
-void postfix(node* root)
+void postorder(node* root)
 {
     if(root==NULL)
     {
@@ -68,6 +68,7 @@ int main()
         root=insert(root,val);
     }
     cout<<"Postfix Traversal is: ";
-    postfix(root);
+    postorder(root);
     return 0;
 }
+
