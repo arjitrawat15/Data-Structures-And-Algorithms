@@ -1,3 +1,4 @@
+//To check to maximum depth or height of a binary tree 
 #include<bits/stdc++.h>
 using namespace std;
 struct node
@@ -98,4 +99,5 @@ int main()
     cout<<"Maximum Depth of a Tree using Recursion is: "<<ans<<endl;
     cout<<"Maximum Depth of a Tree using Level-Order-Traversal is: "<<ans2<<endl;
     return 0;
+
 }
