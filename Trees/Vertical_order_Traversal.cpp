@@ -100,6 +100,10 @@ void helper(node* root,int x,int y,map<int,map<int,multiset<int>>>& mpp)
 void vertical_order_traversal2(node* root)
 {
     vector<vector<int>>ans;
+    if(root==NULL)
+    {
+        return ;
+    }
     map<int,map<int,multiset<int>>> mpp;
     helper(root,0,0,mpp);
     for(auto p:mpp)
@@ -131,4 +135,5 @@ int main()
     vertical_order_traversal(root);
     cout<<"Vertical order traversal using inorder order is: ";
     vertical_order_traversal2(root);
+
 }
