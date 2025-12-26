@@ -135,5 +135,6 @@ int main()
     vertical_order_traversal(root);
     cout<<"Vertical order traversal using inorder order is: ";
     vertical_order_traversal2(root);
-
+    return 0;
 }
+
