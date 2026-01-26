@@ -1,6 +1,6 @@
 // Subtree of another tree
 // Given the roots of two binary trees root and subRoot, return true if there is a subtree of root with the same structure and node values of subRoot and false otherwise.
-// Tc->O(
+// Tc-> O(N) SC-> O(h)
 bool isSubtree(node* root, node* subRoot) 
     {
         if(root==NULL)
