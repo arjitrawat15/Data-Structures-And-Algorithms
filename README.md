@@ -3,7 +3,7 @@
 This repository contains my **self-practice work on Data Structures and Algorithms (DSA)**.  
 All solutions are written **independently by me** as part of my continuous learning and problem-solving journey.
 
-## 🚀 What this repository includes
+## What this repository includes
 
 - DSA problems solved on:
   - **LeetCode**
@@ -13,14 +13,14 @@ All solutions are written **independently by me** as part of my continuous learn
 - Implementations primarily in **C++**
 - Well-structured topic-wise folders for easy navigation
 
-## 📂 Folder Structure
+##  Folder Structure
 
 - **Arrays** – Array-based problems and techniques  
 - **SlidingWindow** – Sliding window patterns and optimizations  
 - **Trees** – Binary Trees, BSTs, traversals, and related problems  
 - *(More topics will be added as I continue practicing)*
 
-## 🎯 Purpose of this Repository
+## Purpose of this Repository
 
 - Strengthen my **problem-solving skills**
 - Build a solid foundation in **core DSA concepts**
@@ -28,12 +28,12 @@ All solutions are written **independently by me** as part of my continuous learn
 - Track my **daily/regular practice progress**
 - Prepare for **coding interviews and internships**
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** C++
 - **Focus:** Clean logic, optimal approaches, and clarity
 
-## 📈 Ongoing Work
+## Ongoing Work
 
 This repository is **actively maintained** and will keep growing as I solve more problems and explore advanced topics.
 
